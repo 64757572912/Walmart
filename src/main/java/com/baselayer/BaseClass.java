@@ -52,17 +52,6 @@ public class BaseClass {
 	driver.manage().timeouts().implicitlyWait(TestUtil.IMPICIT_WAIT,TimeUnit.SECONDS);
 			driver.get(prop.getProperty("url"));
 
-			/*driver.findElement(By.xpath(prop.getProperty("firstName_xpath"))).sendKeys(prop.getProperty("FirstName"));
-			driver.findElement(By.xpath(prop.getProperty("lastName_xpath"))).sendKeys(prop.getProperty("LastName"));
-			driver.findElement(By.xpath(prop.getProperty("phoneNumber_xpath"))).sendKeys(prop.getProperty("Phonenumber"));
-			driver.findElement(By.xpath(prop.getProperty("email_xpath"))).sendKeys(prop.getProperty("Emailaddress"));
-			driver.findElement(By.xpath(prop.getProperty("password_xpath"))).sendKeys(prop.getProperty("Password"));
-			driver.findElement(By.id(prop.getProperty("optionalcheckbox_id"))).click();
-			driver.findElement(By.xpath(prop.getProperty("mendatorycheckbox_xpath"))).click();
-			driver.findElement(By.xpath(prop.getProperty("Createaccountbtn_xpath"))).click();
-			
-			driver.findElement(By.xpath(prop.getProperty("Signinbtn_xpath"))).click();*/
-			
 			
 			
 	

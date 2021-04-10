@@ -40,7 +40,7 @@ public class OrderHistoryTest extends BaseClass {
 	}
 	
 	
-	/*@Test
+	@Test
 	public void ClickvalidorderhistoryTest() {
 		orderhistory.Clickorderviewtab();
 	}
@@ -49,7 +49,7 @@ public class OrderHistoryTest extends BaseClass {
 	
 	public void ClickcreditcrdtabTest() throws InterruptedException {
 		orderhistory.Clickcreditcrdtab();
-	}*/
+	}
 	 
 	@Test(priority=2)
 	public void ClicksubscriptabTest() throws InterruptedException  {

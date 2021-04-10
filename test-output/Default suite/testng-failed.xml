@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.ShoppingCartTest">
+      <class name="com.test.OrderHistoryTest">
         <methods>
-          <include name="ClickprocceddtocheckTest"/>
+          <include name="ClickcreditcrdtabTest"/>
+          <include name="ClickvalidorderhistoryTest"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="validpageTitleTest"/>
+          <include name="ClicksubscriptabTest"/>
         </methods>
-      </class> <!-- com.test.ShoppingCartTest -->
+      </class> <!-- com.test.OrderHistoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
